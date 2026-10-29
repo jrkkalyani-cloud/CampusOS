@@ -1,0 +1,511 @@
+<!DOCTYPE html><html class="dark" lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_dashboard" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-secondary-fixed-variant": "#004f58", "on-background": "#d9e3f7", "on-tertiary": "#003824", "secondary-container": "#00e3fd", "tertiary-fixed-dim": "#4edea3", "on-secondary-fixed": "#001f24", "secondary": "#bdf4ff", "primary-container": "#528dff", "on-primary-container": "#00275f", "surface-container-highest": "#2c3545", "tertiary": "#4edea3", "on-primary-fixed-variant": "#004398", "surface-container-high": "#212a39", "surface-container": "#16202f", "on-surface-variant": "#c2c6d6", "on-error": "#690005", "on-primary-fixed": "#001a43", "outline": "#8c909f", "on-surface": "#d9e3f7", "inverse-primary": "#0059c6", "on-tertiary-container": "#00311f", "on-primary": "#002d6c", "surface": "#0a1422", "surface-bright": "#303a49", "on-tertiary-fixed": "#002113", "surface-container-low": "#121c2a", "on-error-container": "#ffdad6", "background": "#0a1422", "secondary-fixed-dim": "#00daf3", "tertiary-container": "#00a572", "primary-fixed-dim": "#afc6ff", "inverse-surface": "#d9e3f7", "surface-variant": "#2c3545", "outline-variant": "#424753", "surface-dim": "#0a1422", "inverse-on-surface": "#273140", "surface-tint": "#afc6ff", "surface-container-lowest": "#050e1c", "on-secondary": "#00363d", "primary": "#afc6ff", "on-secondary-container": "#00616d", "secondary-fixed": "#9cf0ff", "error-container": "#93000a", "primary-fixed": "#d9e2ff", "on-tertiary-fixed-variant": "#005236", "tertiary-fixed": "#6ffbbe", "error": "#ffb4ab" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "space-md": "1rem", "space-xl": "2rem", "gutter": "1rem", "space-xs": "0.25rem", "space-lg": "1.5rem", "space-sm": "0.5rem", "gutter-md": "1.5rem", "margin": "1rem", "margin-md": "2rem" }, "fontFamily": { "headline-xl": [ "Plus Jakarta Sans" ], "label-timestamp": [ "JetBrains Mono" ], "headline-lg-mobile": [ "Plus Jakarta Sans" ], "body-lg": [ "Inter" ], "label-code": [ "JetBrains Mono" ], "headline-md": [ "Plus Jakarta Sans" ], "headline-xl-mobile": [ "Plus Jakarta Sans" ], "headline-lg": [ "Plus Jakarta Sans" ], "body-sm": [ "Inter" ], "label-badge": [ "Inter" ], "body-md": [ "Inter" ] }, "fontSize": { "headline-xl": [ "40px", { "lineHeight": "48px", "letterSpacing": "-0.03em", "fontWeight": "700" } ], "label-timestamp": [ "11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "400" } ], "headline-lg-mobile": [ "22px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "body-lg": [ "16px", { "lineHeight": "24px", "fontWeight": "400" } ], "label-code": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "500" } ], "headline-md": [ "20px", { "lineHeight": "26px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "headline-xl-mobile": [ "30px", { "lineHeight": "38px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "headline-lg": [ "28px", { "lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "600" } ], "body-sm": [ "12px", { "lineHeight": "18px", "fontWeight": "400" } ], "label-badge": [ "11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "600" } ], "body-md": [ "14px", { "lineHeight": "20px", "fontWeight": "400" } ] } } } };</script></head><body class="bg-background font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container"><aside class="fixed left-0 top-0 h-screen w-72 bg-surface-container-lowest border-r border-outline-variant/30 z-50 flex flex-col justify-between select-none"><div class="flex flex-col"><div class="h-16 px-space-md border-b border-outline-variant/20 flex items-center gap-space-sm"><img alt="CampusOS Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Ud0hFF-A6tEHEY4IssaYAj9yISXh0AA9zAOocaRkuLl0SjS0pKN0CB8fFOJwunAMFETEzv0iWiHZwcEvJWF0nD45c9YvQfibLYj7VK42yBsPzLi2U_qJmTT1MTpENLH1fUtIVbCugs1_qm37TZli3_tTekeWChEsr2nCcihVCt2A7abJKeoaJhbkyfUvQixgwsJa3SUFhZrpWVNpMxTwCP3i_Id-b95Bo5y70EpB6_"><div class="flex flex-col"><span class="font-headline-md text-headline-md tracking-tight text-on-surface">Campus<span class="text-primary">OS</span></span><span class="font-label-code text-label-code text-on-surface-variant">v4.2.0-ice</span></div></div><div class="px-space-md py-space-sm"><div class="bg-surface-container-low border border-outline-variant/30 rounded-xl px-space-sm py-space-xs flex items-center justify-between"><span class="font-label-badge text-label-badge text-on-surface-variant uppercase tracking-wider">Node Core</span><div class="flex items-center gap-1.5"><span class="h-2 w-2 rounded-full bg-tertiary animate-pulse"></span><span class="font-label-code text-label-code text-tertiary">PSG Tech Online</span></div></div></div><nav class="flex flex-col gap-1 px-space-sm mt-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-semibold shadow-sm"><a aria-current="page" class="flex items-center justify-between px-space-md py-space-sm rounded-xl transition-colors group bg-primary-container text-on-primary-container font-semibold shadow-sm" data-path="dashboard" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-outline group-hover:text-on-surface">grid_view</span><span class="font-body-md text-body-md">Dashboard</span></div><span class="font-label-code text-label-code text-outline">01</span></a><a class="flex items-center justify-between px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors group" data-path="timetable" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-outline group-hover:text-on-surface">schedule</span><span class="font-body-md text-body-md">Timetable</span></div><span class="bg-tertiary-container/30 text-tertiary border border-tertiary-container px-1.5 py-0.5 rounded font-label-badge text-label-badge">LIVE</span></a><a class="flex items-center justify-between px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors group" data-path="assignments-and-labs" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-outline group-hover:text-on-surface">fact_check</span><span class="font-body-md text-body-md">Assignments &amp; Labs</span></div><span class="bg-error-container text-on-error-container font-label-badge text-label-badge px-1.5 py-0.5 rounded">3 due</span></a><a class="flex items-center justify-between px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors group" data-path="announcements" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-outline group-hover:text-on-surface">campaign</span><span class="font-body-md text-body-md">Announcements</span></div><span class="relative flex h-2 w-2"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span><span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span></span></a><a class="flex items-center justify-between px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors group" data-path="opportunities" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-outline group-hover:text-on-surface">rocket_launch</span><span class="font-body-md text-body-md">Opportunities</span></div><span class="font-label-badge text-label-badge text-on-surface-variant border border-outline-variant/40 px-1 rounded">HACKS</span></a><a class="flex items-center justify-between px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors group" data-path="profile-and-settings" href="#"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-outline group-hover:text-on-surface">manage_accounts</span><span class="font-body-md text-body-md">Profile &amp; Settings</span></div></a></nav></div><div class="p-space-md border-t border-outline-variant/20 flex flex-col gap-space-sm bg-surface-container-lowest"><div class="bg-surface-container-low border border-outline-variant/30 rounded-xl p-space-sm flex flex-col gap-1.5"><div class="flex items-center justify-between"><span class="font-label-badge text-label-badge text-on-surface-variant uppercase">Network</span><div class="flex items-center gap-1"><span class="material-symbols-outlined text-tertiary text-sm">wifi</span><span class="font-label-code text-label-code text-tertiary">EDUROAM</span></div></div><div class="text-on-surface-variant font-body-sm text-body-sm truncate">PSG Tech Campus · Auto-Sync</div></div><div class="bg-surface-container-low border border-outline-variant/30 rounded-xl p-space-sm flex items-center justify-between"><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-primary text-sm">privacy_tip</span><div class="flex flex-col"><span class="font-label-badge text-label-badge text-on-surface">Privacy Mode</span><span class="font-label-code text-label-code text-tertiary">Peer Profiles Hidden</span></div></div><span class="font-label-badge text-label-badge bg-surface-container-high text-tertiary px-1.5 py-0.5 rounded border border-outline-variant/40">ACTIVE</span></div></div></aside><div class="pl-72"><header class="fixed top-0 left-72 right-0 h-16 bg-surface-container-lowest/85 backdrop-blur-xl border-b border-outline-variant/30 z-40 flex items-center justify-between px-space-lg select-none"><div class="flex items-center gap-space-md"><div class="flex items-center gap-space-xs bg-surface-container border border-outline-variant/40 px-2.5 py-1 rounded-full"><span class="material-symbols-outlined text-primary text-base">school</span><span class="font-label-code text-label-code text-on-surface">PSG Tech · BE ICE Semester 1 (Batch: 60)</span></div><div class="hidden xl:flex items-center gap-space-xs bg-surface-container-low border border-outline-variant/30 px-space-md py-1.5 rounded-full w-80 text-on-surface-variant"><span class="material-symbols-outlined text-outline text-base">search</span><span class="font-body-sm text-body-sm text-outline flex-1 truncate">Search timetable, labs, announcements...</span><kbd class="font-label-code text-label-code bg-surface-container-high px-1.5 py-0.5 rounded border border-outline-variant/40 text-on-surface-variant">/</kbd></div></div><div class="flex items-center gap-space-md"><div class="hidden sm:flex items-center gap-space-xs bg-surface-container-low border border-outline-variant/30 px-2.5 py-1 rounded-lg"><span class="material-symbols-outlined text-tertiary text-base">file_download_off</span><div class="flex flex-col"><span class="font-label-timestamp text-label-timestamp text-on-surface-variant uppercase">PSG Tech Time</span><span class="font-label-code text-label-code text-tertiary font-semibold">11:42:08 AM IST</span></div></div><div class="relative flex items-center"><button aria-label="Alert Status Indicator" class="p-2 rounded-lg bg-surface-container-low border border-outline-variant/30 text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors relative" type="button"><span class="material-symbols-outlined text-lg">notifications</span><span class="absolute top-1.5 right-1.5 h-2 w-2 rounded-full bg-error border border-surface-container-lowest"></span></button></div><div class="h-6 w-px bg-outline-variant/30"></div><div class="flex items-center gap-space-sm pl-space-xs"><div class="flex flex-col text-right hidden lg:flex"><span class="font-body-md text-body-md font-semibold text-on-surface leading-tight">Karthik Raja V (24I108)</span><span class="font-label-code text-label-code text-tertiary leading-tight">Private Student Account · ICE Sem 1</span></div><div class="relative flex items-center gap-1 cursor-pointer"><img alt="Profile" class="w-8 h-8 rounded-full object-cover border border-outline-variant/50" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBZXTDY_GPO3smX2m7lRTroW1HalNe9Ay64Ay1j7qxQBXbh0N_3eZIZOnB5PnoyMRoyhrqoOjED_MldKHMhwucWSebfFU8NCNoFFmsMsOoLWtOyIIOjRraq7ma3sBAhkLTZlo6_OKbBir5gj-jIJyCZ8Oh0OjXZs3y6nfGfDlQXZco10HhWJbzLfjZzvlzZiDERDMS1cBRG9kaMuD5v9VVd2e98Zu1Ue4T_cMhIFBs"><span class="material-symbols-outlined text-outline text-sm">expand_more</span></div></div></div></header><main class="w-full pt-16 min-h-screen bg-surface"><div class="flex flex-col w-full">
+<!-- Interactive Top Broadcast Toast -->
+<div class="w-full bg-error-container/20 px-space-md py-space-sm flex items-center justify-between text-on-surface"><div class="flex items-center gap-space-sm min-w-0"><span class="material-symbols-outlined text-secondary text-lg shrink-0">info</span><div class="flex items-center gap-2 truncate"><span class="font-label-badge text-label-badge bg-secondary/10 text-secondary px-1.5 py-0.5 rounded uppercase">Official Schedule Notice</span><span class="font-body-sm text-body-sm text-on-surface truncate">PSG College of Technology · BE ICE Semester 1 official timetable active (Strength: 60). All mock entries tagged as [DEMO PREVIEW].</span></div></div><div class="flex items-center gap-space-sm shrink-0"><span class="font-label-timestamp text-label-timestamp text-on-surface-variant hidden md:inline">SEMESTER 1 · SEC ICE</span><button class="text-on-surface-variant hover:text-on-surface flex items-center p-1" onclick="this.closest('.w-full').remove()"><span class="material-symbols-outlined text-base">close</span></button></div></div>
+<div class="px-space-md lg:px-space-xl py-space-lg flex flex-col gap-space-xl max-w-7xl mx-auto w-full">
+<!-- EXECUTIVE GREETING & OPERATIONAL STATUS -->
+<header class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-md pb-space-sm"><div class="flex flex-col gap-1.5"><div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-tertiary"></span><span class="font-label-timestamp text-label-timestamp uppercase text-tertiary font-semibold tracking-wider">PSG COLLEGE OF TECHNOLOGY · COIMBATORE 641 004</span><span class="text-outline text-xs">/</span><span class="font-label-code text-label-code text-on-surface-variant">Strength: 60</span></div><div class="flex items-baseline gap-space-sm flex-wrap"><h1 class="font-headline-xl text-headline-xl text-on-surface tracking-tight">BE Instrumentation &amp; Control Engineering</h1><span class="font-label-code text-label-code bg-surface-container-high px-2 py-0.5 rounded text-secondary font-medium">Semester 1 Timetable Hub</span></div><p class="font-body-md text-body-md text-on-surface-variant">Official schedule mapped directly from PSG Tech academic records · Peer directories &amp; public ranks disabled for privacy.</p></div><div class="flex items-center gap-2 flex-wrap"><span class="font-label-badge text-label-badge bg-surface-container-low border border-outline-variant/30 text-on-surface-variant px-3 py-1.5 rounded flex items-center gap-1.5"><span class="material-symbols-outlined text-sm text-tertiary">lock</span><span class="">Private Account (24I108)</span></span><a href="#full-matrix" class="bg-primary text-on-primary font-semibold hover:bg-primary-fixed-dim px-3 py-1.5 rounded flex items-center gap-1.5 shadow-sm transition-colors text-body-sm font-body-sm"><span class="material-symbols-outlined text-sm">table_chart</span><span class="">View 5-Day Full Matrix</span></a></div></header>
+<!-- SECTION 1: THE 3 CORE QUESTIONS BENTO HERO -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-md"><div class="lg:col-span-7 bg-surface-container rounded-xl p-space-lg flex flex-col justify-between relative overflow-hidden shadow-md"><div class="absolute -right-16 -top-16 w-56 h-56 bg-primary/10 rounded-full blur-3xl pointer-events-none"></div><div class="flex flex-col gap-space-md relative z-10"><div class="flex items-center justify-between gap-space-sm flex-wrap"><div class="flex items-center gap-2"><span class="font-label-badge text-label-badge bg-tertiary/20 text-tertiary px-2 py-0.5 rounded font-semibold uppercase tracking-wider">Wednesday · Period 5-8 Lab Block</span><div class="flex items-center gap-1.5 bg-surface-container-lowest px-2 py-0.5 rounded"><span class="h-2 w-2 rounded-full bg-secondary-fixed-dim animate-ping"></span><span class="font-label-code text-label-code text-secondary font-semibold">UPCOMING 1.40 PM</span></div></div><div class="flex items-center gap-1 text-on-surface-variant font-label-timestamp text-label-timestamp"><span class="material-symbols-outlined text-sm text-outline">schedule</span><span class="">1.40 – 5.10 PM (P5, P6, P7, P8)</span></div></div><div class="flex flex-col gap-1"><div class="flex items-center gap-2 text-on-surface-variant"><span class="font-label-code text-label-code bg-surface-container-high text-primary px-1.5 py-0.5 rounded font-bold">23U111</span><span class="font-label-badge text-label-badge uppercase tracking-wider text-outline">4-Period Laboratory Session</span></div><h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight leading-tight">Circuits and Devices Laboratory</h2><div class="flex items-center gap-2 text-on-surface-variant font-body-sm text-body-sm pt-1"><span class="material-symbols-outlined text-base text-primary">science</span><span class="">Venue: Circuits &amp; Devices Lab (As Per Dept Schedule)</span></div></div><div class="bg-surface-container-low rounded-lg p-space-sm flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm"><div class="h-10 w-10 rounded bg-primary/10 flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-primary text-xl">electrical_services</span></div><div class="flex flex-col"><div class="flex items-center gap-2"><span class="font-label-code text-label-code font-semibold text-on-surface">BE ICE Semester 1 Core Practical</span><span class="font-label-badge text-label-badge bg-primary-container/20 text-primary px-1 py-0.2 rounded font-semibold uppercase">4 Periods</span></div><span class="font-body-sm text-body-sm text-outline">P5 (1.40-2.30), P6 (2.30-3.20), P7 (3.30-4.20), P8 (4.20-5.10)</span></div></div><a class="font-label-code text-label-code text-secondary hover:text-primary flex items-center gap-1 self-start sm:self-center shrink-0" href="#full-matrix">Subject Key <span class="material-symbols-outlined text-sm">arrow_downward</span></a></div></div><div class="flex items-center gap-space-sm pt-space-md mt-space-sm flex-wrap relative z-10"><span class="bg-surface-container-high text-on-surface px-space-md py-2 rounded font-body-sm text-body-sm flex items-center gap-1.5"><span class="material-symbols-outlined text-base text-outline">menu_book</span><span class="">Lab Manual: Exp 1 to 4</span></span><div class="ml-auto flex items-center gap-1 text-on-surface-variant font-label-code text-label-code"><span class="material-symbols-outlined text-xs text-tertiary">verified</span><span class="">Strength: 60 Students</span></div></div></div><div class="lg:col-span-5 flex flex-col gap-space-md"><div class="bg-surface-container rounded-xl p-space-md flex flex-col gap-space-xs shadow-md"><div class="flex items-center justify-between"><span class="font-label-badge text-label-badge bg-primary/20 text-primary px-2 py-0.5 rounded font-semibold uppercase tracking-wider">PSG Tech ICE Timetable Protocol</span><span class="font-label-timestamp text-label-timestamp text-on-surface-variant">SEM 1 OFFICIAL</span></div><div class="flex items-start gap-space-sm pt-1"><span class="material-symbols-outlined text-secondary text-xl shrink-0 mt-0.5">rule</span><div class="flex flex-col gap-0.5"><span class="font-body-md text-body-md font-semibold text-on-surface">Period &amp; Recess Norms</span><p class="font-body-sm text-body-sm text-on-surface-variant">Morning Tea: 10.10–10.30 · Lunch: 12.10–1.40 · Afternoon Tea: 3.20–3.30. Room allocations coordinated via ICE Department HOD Office.</p></div></div><div class="bg-surface-container-low rounded p-2 flex items-center justify-between text-xs mt-1"><span class="font-label-code text-label-code text-outline">Coimbatore 641 004</span><span class="font-label-badge text-label-badge text-tertiary flex items-center gap-1"><span class="material-symbols-outlined text-xs">verified</span> Verified Structure</span></div></div><div class="bg-surface-container rounded-xl p-space-md flex flex-col gap-space-xs shadow-md flex-1 justify-between"><div class="flex items-center justify-between"><span class="font-label-badge text-label-badge bg-outline-variant/30 text-on-surface-variant px-2 py-0.5 rounded font-semibold uppercase tracking-wider">Academic Record Deliverables</span><span class="font-label-code text-label-code bg-surface-container-high text-outline px-1.5 py-0.5 rounded">[DEMO PREVIEW]</span></div><div class="flex flex-col gap-2 pt-1"><div class="flex items-start justify-between gap-2"><div class="flex flex-col"><span class="font-body-md text-body-md font-semibold text-on-surface leading-snug">23U111 Circuits &amp; Devices Record</span><span class="font-body-sm text-body-sm text-on-surface-variant">Sample demo tracker · Not an official institute submission</span></div><span class="font-label-code text-label-code bg-tertiary-container/30 text-tertiary px-1.5 py-0.5 rounded shrink-0 font-bold">Weekly Lab</span></div><div class="w-full bg-surface-container-lowest h-1.5 rounded-full overflow-hidden"><div class="bg-tertiary h-full rounded-full w-4/5"></div></div><div class="flex items-center justify-between font-label-code text-label-code text-outline text-[11px]"><span class="">Physical record verification</span><span class="text-tertiary font-semibold">Cycle 1 Practical</span></div></div><div class="pt-2 flex items-center justify-between"><span class="font-label-code text-label-code text-outline text-xs">Peer records &amp; ranks hidden for privacy</span><a class="font-label-code text-label-code text-primary hover:text-secondary flex items-center gap-1" href="#full-matrix">View Full Timetable <span class="material-symbols-outlined text-sm">east</span></a></div></div></div></div>
+<!-- SECTION 2: TODAY'S TIMETABLE (CHRONOLOGICAL HIGH-DENSITY TRACK) -->
+<div class="flex flex-col gap-space-md">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<h2 class="font-headline-md text-headline-md text-on-surface tracking-tight">Today's Operating Timeline</h2>
+<span class="font-label-code text-label-code bg-surface-container px-2 py-0.5 rounded text-outline">Wednesday · Cycle 3</span>
+</div>
+<div class="flex items-center gap-1 bg-surface-container-low p-1 rounded-lg">
+<button class="px-2.5 py-1 rounded bg-surface-container font-label-badge text-label-badge text-on-surface shadow-sm font-semibold">Day 3 View</button>
+<button class="px-2.5 py-1 rounded hover:bg-surface-container font-label-badge text-label-badge text-on-surface-variant transition-colors">Week Matrix</button>
+<button class="px-2.5 py-1 rounded hover:bg-surface-container font-label-badge text-label-badge text-on-surface-variant transition-colors">Faculty Map</button>
+</div>
+</div>
+<!-- Schedule Timeline Stack -->
+<div class="flex flex-col gap-2"><!-- Slot 1: P1 -->
+<div class="bg-surface-container-low rounded-xl p-space-md flex flex-col md:flex-row md:items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-md">
+<div class="flex flex-col min-w-[110px]"><span class="font-label-code text-label-code text-on-surface-variant font-bold">8.30 – 9.20</span><span class="font-label-timestamp text-label-timestamp text-outline uppercase">Period 1</span></div>
+<div class="h-8 w-px bg-outline-variant/30 hidden md:block"></div>
+<div class="flex flex-col"><div class="flex items-center gap-2"><span class="font-label-code text-label-code bg-surface-container-high px-1.5 py-0.5 rounded text-primary font-bold">23U101</span><span class="font-body-md text-body-md font-semibold text-on-surface">Calculus and its Applications</span></div><span class="font-body-sm text-body-sm text-on-surface-variant">Venue: Classroom / As Per Department Schedule</span></div>
+</div>
+<span class="font-label-badge text-label-badge bg-surface-container-high text-on-surface-variant px-2 py-0.5 rounded">Completed</span>
+</div>
+<!-- Slot 2: P2 -->
+<div class="bg-surface-container rounded-xl p-space-md flex flex-col md:flex-row md:items-center justify-between gap-space-sm relative shadow-md">
+<div class="absolute left-0 top-0 bottom-0 w-1.5 bg-tertiary rounded-l-xl"></div>
+<div class="flex items-center gap-space-md pl-1">
+<div class="flex flex-col min-w-[110px]"><span class="font-label-code text-label-code text-tertiary font-bold">9.20 – 10.10</span><span class="font-label-timestamp text-label-timestamp text-tertiary uppercase">Period 2 · In Progress</span></div>
+<div class="h-8 w-px bg-outline-variant/30 hidden md:block"></div>
+<div class="flex flex-col"><div class="flex items-center gap-2"><span class="font-label-code text-label-code bg-surface-container-high px-1.5 py-0.5 rounded text-tertiary font-bold">23U104</span><span class="font-body-md text-body-md font-semibold text-on-surface">Electronic Devices &amp; Circuits</span></div><span class="font-body-sm text-body-sm text-on-surface-variant">Venue: Classroom / As Per Department Schedule</span></div>
+</div>
+<span class="font-label-code text-label-code bg-surface-container-lowest text-tertiary px-2 py-1 rounded">Live Period</span>
+</div>
+<!-- Slot 3: Tea Break -->
+<div class="bg-surface-container-lowest/40 rounded-lg px-space-md py-2 flex items-center justify-between text-outline">
+<div class="flex items-center gap-space-md"><span class="font-label-code text-label-code min-w-[110px]">10.10 – 10.30</span><div class="flex items-center gap-2"><span class="material-symbols-outlined text-base">local_cafe</span><span class="font-body-sm text-body-sm font-medium">Morning Recess &amp; Tea Break (20 mins)</span></div></div>
+<span class="font-label-timestamp text-label-timestamp text-on-surface-variant hidden sm:inline">OFFICIAL PSG TIMETABLE BREAK</span>
+</div>
+<!-- Slot 4: P3 -->
+<div class="bg-surface-container rounded-xl p-space-md flex flex-col md:flex-row md:items-center justify-between gap-space-sm shadow-sm">
+<div class="flex items-center gap-space-md">
+<div class="flex flex-col min-w-[110px]"><span class="font-label-code text-label-code text-on-surface font-semibold">10.30 – 11.20</span><span class="font-label-timestamp text-label-timestamp text-outline uppercase">Period 3</span></div>
+<div class="h-8 w-px bg-outline-variant/30 hidden md:block"></div>
+<div class="flex flex-col"><div class="flex items-center gap-2"><span class="font-label-code text-label-code bg-surface-container-high px-1.5 py-0.5 rounded text-primary font-bold">23G105</span><span class="font-body-md text-body-md font-semibold text-on-surface">English Language Proficiency</span></div><span class="font-body-sm text-body-sm text-on-surface-variant">Venue: Classroom / As Per Department Schedule</span></div>
+</div>
+<span class="font-label-badge text-label-badge bg-surface-container text-outline px-2 py-1 rounded">Next Session</span>
+</div>
+<!-- Slot 5: P4 -->
+<div class="bg-surface-container-low rounded-xl p-space-md flex flex-col md:flex-row md:items-center justify-between gap-space-sm shadow-sm">
+<div class="flex items-center gap-space-md">
+<div class="flex flex-col min-w-[110px]"><span class="font-label-code text-label-code text-on-surface font-semibold">11.20 – 12.10</span><span class="font-label-timestamp text-label-timestamp text-outline uppercase">Period 4</span></div>
+<div class="h-8 w-px bg-outline-variant/30 hidden md:block"></div>
+<div class="flex flex-col"><div class="flex items-center gap-2"><span class="font-label-code text-label-code bg-surface-container-high px-1.5 py-0.5 rounded text-secondary font-bold">23U103</span><span class="font-body-md text-body-md font-semibold text-on-surface">Electric Circuits</span></div><span class="font-body-sm text-body-sm text-on-surface-variant">Venue: Classroom / As Per Department Schedule</span></div>
+</div>
+<span class="font-label-badge text-label-badge bg-surface-container text-outline px-2 py-1 rounded">Scheduled</span>
+</div>
+<!-- Slot 6: Lunch Break -->
+<div class="bg-surface-container-lowest/40 rounded-lg px-space-md py-2 flex items-center justify-between text-outline">
+<div class="flex items-center gap-space-md"><span class="font-label-code text-label-code min-w-[110px]">12.10 – 1.40</span><div class="flex items-center gap-2"><span class="material-symbols-outlined text-base">restaurant</span><span class="font-body-sm text-body-sm font-medium">Lunch Break (1 hr 30 mins)</span></div></div>
+<span class="font-label-timestamp text-label-timestamp text-on-surface-variant hidden sm:inline">MIDDAY RECESS</span>
+</div>
+<!-- Slot 7: P5-P8 Lab Block -->
+<div class="bg-surface-container rounded-xl p-space-md flex flex-col md:flex-row md:items-center justify-between gap-space-sm shadow-md">
+<div class="flex items-center gap-space-md">
+<div class="flex flex-col min-w-[110px]"><span class="font-label-code text-label-code text-secondary font-bold">1.40 – 5.10</span><span class="font-label-timestamp text-label-timestamp text-secondary uppercase font-semibold">Periods 5, 6, 7, 8</span></div>
+<div class="h-8 w-px bg-outline-variant/30 hidden md:block"></div>
+<div class="flex flex-col"><div class="flex items-center gap-2 flex-wrap"><span class="font-label-code text-label-code bg-secondary/20 text-secondary px-1.5 py-0.5 rounded font-bold">23U111</span><span class="font-body-md text-body-md font-semibold text-on-surface">Circuits &amp; Devices Laboratory (4 Periods)</span><span class="font-label-badge text-label-badge bg-surface-container-high text-outline px-1.5 py-0.5 rounded">Tea Break 3.20-3.30 included</span></div><span class="font-body-sm text-body-sm text-on-surface-variant">Venue: Circuits &amp; Devices Laboratory · Semester 1 Practical Block</span></div>
+</div>
+<span class="font-label-badge text-label-badge bg-secondary-container/20 text-secondary px-2.5 py-1 rounded font-semibold">AFTERNOON LAB</span>
+</div></div>
+</div>
+<!-- SECTION 3: SUBMISSION RADAR & ATTENDANCE TELEMETRY -->
+<!-- PSG COLLEGE OF TECHNOLOGY BE ICE SEMESTER 1 MASTER MATRIX & SUBJECT KEY -->
+<div class="bg-surface-container rounded-xl p-space-md lg:p-space-lg flex flex-col gap-space-md shadow-md" id="full-matrix">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm pb-2 border-b border-outline-variant/20">
+<div>
+<div class="flex items-center gap-2">
+<span class="font-label-badge text-label-badge bg-tertiary-container/30 text-tertiary px-2 py-0.5 rounded font-semibold uppercase">Official Schedule</span>
+<h2 class="font-headline-md text-headline-md text-on-surface tracking-tight">PSG College of Technology · BE ICE Semester 1 Matrix</h2>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Coimbatore · 641 004 | Batch Strength: 60 | Department of Instrumentation and Control Engineering</p>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-label-timestamp text-label-timestamp text-outline">P1 to P12 Structured Grid</span>
+</div>
+</div>
+
+<!-- Full Schedule Table -->
+<div class="overflow-x-auto">
+<table class="w-full text-center border-collapse">
+<thead>
+<tr class="bg-surface-container-high text-on-surface-variant font-label-code text-[11px]">
+<th class="p-2 border border-outline-variant/30 text-left font-bold text-on-surface">DAY</th>
+<th class="p-2 border border-outline-variant/30">P1<br><span class="text-outline font-normal">8.30–9.20</span></th>
+<th class="p-2 border border-outline-variant/30">P2<br><span class="text-outline font-normal">9.20–10.10</span></th>
+<th class="p-2 border border-outline-variant/30">P3<br><span class="text-outline font-normal">10.30–11.20</span></th>
+<th class="p-2 border border-outline-variant/30">P4<br><span class="text-outline font-normal">11.20–12.10</span></th>
+<th class="p-2 border border-outline-variant/30">P5<br><span class="text-outline font-normal">1.40–2.30</span></th>
+<th class="p-2 border border-outline-variant/30">P6<br><span class="text-outline font-normal">2.30–3.20</span></th>
+<th class="p-2 border border-outline-variant/30">P7<br><span class="text-outline font-normal">3.30–4.20</span></th>
+<th class="p-2 border border-outline-variant/30">P8<br><span class="text-outline font-normal">4.20–5.10</span></th>
+<th class="p-2 border border-outline-variant/30 text-outline">P9–P12</th>
+</tr>
+</thead>
+<tbody class="font-body-sm text-body-sm">
+<tr class="hover:bg-surface-container-high/40">
+<td class="p-2 border border-outline-variant/30 font-label-code font-bold text-left text-primary">MON</td>
+<td class="p-2 border border-outline-variant/30 bg-primary/10 text-primary font-medium">Library</td>
+<td class="p-2 border border-outline-variant/30">English Language Proficiency</td>
+<td class="p-2 border border-outline-variant/30">Electronic Devices &amp; Circuits</td>
+<td class="p-2 border border-outline-variant/30">Tutor Ward Meeting</td>
+<td class="p-2 border border-outline-variant/30 bg-primary/10 text-primary font-medium">Library</td>
+<td class="p-2 border border-outline-variant/30">Calculus and its Applications</td>
+<td class="p-2 border border-outline-variant/30 text-secondary">Electric Circuits</td>
+<td class="p-2 border border-outline-variant/30 text-outline">—</td>
+<td class="p-2 border border-outline-variant/30 text-outline">—</td>
+</tr>
+<tr class="hover:bg-surface-container-high/40">
+<td class="p-2 border border-outline-variant/30 font-label-code font-bold text-left text-primary">TUE</td>
+<td class="p-2 border border-outline-variant/30 text-secondary" colspan="4">Engineering Graphics (P1 to P4 Block)</td>
+<td class="p-2 border border-outline-variant/30">Physics</td>
+<td class="p-2 border border-outline-variant/30">English Language Proficiency</td>
+<td class="p-2 border border-outline-variant/30 text-secondary">Electric Circuits</td>
+<td class="p-2 border border-outline-variant/30 text-outline">—</td>
+<td class="p-2 border border-outline-variant/30 text-outline">—</td>
+</tr>
+<tr class="hover:bg-surface-container-high/40 bg-surface-container-low">
+<td class="p-2 border border-outline-variant/30 font-label-code font-bold text-left text-tertiary">WED (Today)</td>
+<td class="p-2 border border-outline-variant/30">Calculus and its Applications</td>
+<td class="p-2 border border-outline-variant/30">Electronic Devices &amp; Circuits</td>
+<td class="p-2 border border-outline-variant/30">English Language Proficiency</td>
+<td class="p-2 border border-outline-variant/30">Electric Circuits</td>
+<td class="p-2 border border-outline-variant/30 text-tertiary font-medium" colspan="4">Circuits &amp; Devices Laboratory (P5 to P8 Block)</td>
+<td class="p-2 border border-outline-variant/30 text-outline">—</td>
+</tr>
+<tr class="hover:bg-surface-container-high/40">
+<td class="p-2 border border-outline-variant/30 font-label-code font-bold text-left text-primary">THU</td>
+<td class="p-2 border border-outline-variant/30 bg-primary/10 text-primary font-medium">Library</td>
+<td class="p-2 border border-outline-variant/30">Calculus and its Applications</td>
+<td class="p-2 border border-outline-variant/30">Electric Circuits</td>
+<td class="p-2 border border-outline-variant/30">Electronic Devices &amp; Circuits</td>
+<td class="p-2 border border-outline-variant/30">Physics</td>
+<td class="p-2 border border-outline-variant/30">English Language Proficiency</td>
+<td class="p-2 border border-outline-variant/30 text-outline">—</td>
+<td class="p-2 border border-outline-variant/30 text-outline">—</td>
+<td class="p-2 border border-outline-variant/30 text-outline">—</td>
+</tr>
+<tr class="hover:bg-surface-container-high/40">
+<td class="p-2 border border-outline-variant/30 font-label-code font-bold text-left text-primary">FRI</td>
+<td class="p-2 border border-outline-variant/30 text-tertiary font-medium" colspan="4">Circuits &amp; Devices Laboratory (P1 to P4 Block)</td>
+<td class="p-2 border border-outline-variant/30">Calculus and its Applications</td>
+<td class="p-2 border border-outline-variant/30">Physics</td>
+<td class="p-2 border border-outline-variant/30 text-outline">—</td>
+<td class="p-2 border border-outline-variant/30 text-outline">—</td>
+<td class="p-2 border border-outline-variant/30 text-outline">—</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<!-- SUBJECT KEY GRID DIRECTLY MATCHING IMAGE -->
+<div class="pt-2 border-t border-outline-variant/20 flex flex-col gap-2">
+<div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-base">menu_book</span><span class="font-label-badge text-label-badge text-on-surface uppercase font-bold tracking-wider">Official Subject Key</span></div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-2 font-body-sm text-body-sm">
+<div class="bg-surface-container-low p-2 rounded border border-outline-variant/20 flex items-center justify-between"><div class="flex items-center gap-2"><span class="font-label-code text-label-code text-primary font-bold">23U101</span><span class="text-on-surface">Calculus and its Applications</span></div></div>
+<div class="bg-surface-container-low p-2 rounded border border-outline-variant/20 flex items-center justify-between"><div class="flex items-center gap-2"><span class="font-label-code text-label-code text-primary font-bold">23U102</span><span class="text-on-surface">Physics</span></div></div>
+<div class="bg-surface-container-low p-2 rounded border border-outline-variant/20 flex items-center justify-between"><div class="flex items-center gap-2"><span class="font-label-code text-label-code text-primary font-bold">23U104</span><span class="text-on-surface">Electronic Devices and Circuits</span></div></div>
+<div class="bg-surface-container-low p-2 rounded border border-outline-variant/20 flex items-center justify-between"><div class="flex items-center gap-2"><span class="font-label-code text-label-code text-primary font-bold">23U110</span><span class="text-on-surface">Engineering Graphics</span></div></div>
+<div class="bg-surface-container-low p-2 rounded border border-outline-variant/20 flex items-center justify-between"><div class="flex items-center gap-2"><span class="font-label-code text-label-code text-primary font-bold">23U111</span><span class="text-on-surface">Circuits and Devices Laboratory</span></div></div>
+<div class="bg-surface-container-low p-2 rounded border border-outline-variant/20 flex items-center justify-between"><div class="flex items-center gap-2"><span class="font-label-code text-label-code text-primary font-bold">23G105</span><span class="text-on-surface">English Language Proficiency</span></div></div>
+<div class="bg-surface-container-low p-2 rounded border border-outline-variant/20 flex items-center justify-between"><div class="flex items-center gap-2"><span class="font-label-code text-label-code text-primary font-bold">23U103</span><span class="text-on-surface">Electric Circuits</span></div></div>
+<div class="bg-surface-container-low p-2 rounded border border-outline-variant/20 flex items-center justify-between"><div class="flex items-center gap-2"><span class="font-label-code text-label-code text-tertiary font-bold">LIB</span><span class="text-on-surface">Library</span></div></div>
+<div class="bg-surface-container-low p-2 rounded border border-outline-variant/20 flex items-center justify-between"><div class="flex items-center gap-2"><span class="font-label-code text-label-code text-tertiary font-bold">TWM</span><span class="text-on-surface">Tutor Ward Meeting</span></div></div>
+</div>
+</div>
+</div><div class="grid grid-cols-1 lg:grid-cols-12 gap-space-md" id="submissions-section">
+<!-- SUBMISSION RADAR (8 COLS) -->
+<div class="lg:col-span-8 flex flex-col gap-space-md">
+<div class="flex items-center justify-between"><div class="flex items-center gap-space-sm"><h2 class="font-headline-md text-headline-md text-on-surface tracking-tight">Deliverables &amp; Records</h2><span class="font-label-badge text-label-badge bg-outline-variant/30 text-on-surface-variant px-2 py-0.5 rounded font-semibold">[SAMPLE PREVIEW DATA]</span></div><span class="font-label-timestamp text-label-timestamp text-outline hidden sm:inline">PEER PROFILES &amp; LEADERBOARDS DISABLED</span></div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-sm">
+<!-- Card 1: Urgent -->
+<div class="bg-surface-container rounded-xl p-space-md flex flex-col justify-between gap-space-md shadow-md">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-label-badge text-label-badge bg-error-container text-on-error-container px-1.5 py-0.5 rounded font-bold uppercase">
+                  Today · 04:00 PM
+                </span>
+<span class="material-symbols-outlined text-error text-base">priority_high</span>
+</div>
+<h3 class="font-body-md text-body-md font-semibold text-on-surface leading-snug">
+                Sensors Lab Record #4
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                LVDT &amp; Strain Gauge Calibration Curve. Requires physical note submission + MATLAB graphs.
+              </p>
+</div>
+<div class="flex flex-col gap-2 pt-2">
+<div class="flex items-center justify-between font-label-code text-label-code text-xs">
+<span class="text-error font-medium">Due in ~6 hrs</span>
+<span class="text-on-surface-variant">ICE Dept Office</span>
+</div>
+<button class="w-full bg-error-container/30 hover:bg-error-container/50 text-error font-label-code text-label-code py-1.5 rounded transition-colors font-semibold">
+                Mark Submitted
+              </button>
+</div>
+</div>
+<!-- Card 2: Tomorrow -->
+<div class="bg-surface-container rounded-xl p-space-md flex flex-col justify-between gap-space-md shadow-md">
+<div class="flex flex-col gap-2"><!-- Slot 1: P1 -->
+<div class="bg-surface-container-low rounded-xl p-space-md flex flex-col md:flex-row md:items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-md">
+<div class="flex flex-col min-w-[110px]"><span class="font-label-code text-label-code text-on-surface-variant font-bold">8.30 – 9.20</span><span class="font-label-timestamp text-label-timestamp text-outline uppercase">Period 1</span></div>
+<div class="h-8 w-px bg-outline-variant/30 hidden md:block"></div>
+<div class="flex flex-col"><div class="flex items-center gap-2"><span class="font-label-code text-label-code bg-surface-container-high px-1.5 py-0.5 rounded text-primary font-bold">23U101</span><span class="font-body-md text-body-md font-semibold text-on-surface">Calculus and its Applications</span></div><span class="font-body-sm text-body-sm text-on-surface-variant">Venue: Classroom / As Per Department Schedule</span></div>
+</div>
+<span class="font-label-badge text-label-badge bg-surface-container-high text-on-surface-variant px-2 py-0.5 rounded">Completed</span>
+</div>
+<!-- Slot 2: P2 -->
+<div class="bg-surface-container rounded-xl p-space-md flex flex-col md:flex-row md:items-center justify-between gap-space-sm relative shadow-md">
+<div class="absolute left-0 top-0 bottom-0 w-1.5 bg-tertiary rounded-l-xl"></div>
+<div class="flex items-center gap-space-md pl-1">
+<div class="flex flex-col min-w-[110px]"><span class="font-label-code text-label-code text-tertiary font-bold">9.20 – 10.10</span><span class="font-label-timestamp text-label-timestamp text-tertiary uppercase">Period 2 · In Progress</span></div>
+<div class="h-8 w-px bg-outline-variant/30 hidden md:block"></div>
+<div class="flex flex-col"><div class="flex items-center gap-2"><span class="font-label-code text-label-code bg-surface-container-high px-1.5 py-0.5 rounded text-tertiary font-bold">23U104</span><span class="font-body-md text-body-md font-semibold text-on-surface">Electronic Devices &amp; Circuits</span></div><span class="font-body-sm text-body-sm text-on-surface-variant">Venue: Classroom / As Per Department Schedule</span></div>
+</div>
+<span class="font-label-code text-label-code bg-surface-container-lowest text-tertiary px-2 py-1 rounded">Live Period</span>
+</div>
+<!-- Slot 3: Tea Break -->
+<div class="bg-surface-container-lowest/40 rounded-lg px-space-md py-2 flex items-center justify-between text-outline">
+<div class="flex items-center gap-space-md"><span class="font-label-code text-label-code min-w-[110px]">10.10 – 10.30</span><div class="flex items-center gap-2"><span class="material-symbols-outlined text-base">local_cafe</span><span class="font-body-sm text-body-sm font-medium">Morning Recess &amp; Tea Break (20 mins)</span></div></div>
+<span class="font-label-timestamp text-label-timestamp text-on-surface-variant hidden sm:inline">OFFICIAL PSG TIMETABLE BREAK</span>
+</div>
+<!-- Slot 4: P3 -->
+<div class="bg-surface-container rounded-xl p-space-md flex flex-col md:flex-row md:items-center justify-between gap-space-sm shadow-sm">
+<div class="flex items-center gap-space-md">
+<div class="flex flex-col min-w-[110px]"><span class="font-label-code text-label-code text-on-surface font-semibold">10.30 – 11.20</span><span class="font-label-timestamp text-label-timestamp text-outline uppercase">Period 3</span></div>
+<div class="h-8 w-px bg-outline-variant/30 hidden md:block"></div>
+<div class="flex flex-col"><div class="flex items-center gap-2"><span class="font-label-code text-label-code bg-surface-container-high px-1.5 py-0.5 rounded text-primary font-bold">23G105</span><span class="font-body-md text-body-md font-semibold text-on-surface">English Language Proficiency</span></div><span class="font-body-sm text-body-sm text-on-surface-variant">Venue: Classroom / As Per Department Schedule</span></div>
+</div>
+<span class="font-label-badge text-label-badge bg-surface-container text-outline px-2 py-1 rounded">Next Session</span>
+</div>
+<!-- Slot 5: P4 -->
+<div class="bg-surface-container-low rounded-xl p-space-md flex flex-col md:flex-row md:items-center justify-between gap-space-sm shadow-sm">
+<div class="flex items-center gap-space-md">
+<div class="flex flex-col min-w-[110px]"><span class="font-label-code text-label-code text-on-surface font-semibold">11.20 – 12.10</span><span class="font-label-timestamp text-label-timestamp text-outline uppercase">Period 4</span></div>
+<div class="h-8 w-px bg-outline-variant/30 hidden md:block"></div>
+<div class="flex flex-col"><div class="flex items-center gap-2"><span class="font-label-code text-label-code bg-surface-container-high px-1.5 py-0.5 rounded text-secondary font-bold">23U103</span><span class="font-body-md text-body-md font-semibold text-on-surface">Electric Circuits</span></div><span class="font-body-sm text-body-sm text-on-surface-variant">Venue: Classroom / As Per Department Schedule</span></div>
+</div>
+<span class="font-label-badge text-label-badge bg-surface-container text-outline px-2 py-1 rounded">Scheduled</span>
+</div>
+<!-- Slot 6: Lunch Break -->
+<div class="bg-surface-container-lowest/40 rounded-lg px-space-md py-2 flex items-center justify-between text-outline">
+<div class="flex items-center gap-space-md"><span class="font-label-code text-label-code min-w-[110px]">12.10 – 1.40</span><div class="flex items-center gap-2"><span class="material-symbols-outlined text-base">restaurant</span><span class="font-body-sm text-body-sm font-medium">Lunch Break (1 hr 30 mins)</span></div></div>
+<span class="font-label-timestamp text-label-timestamp text-on-surface-variant hidden sm:inline">MIDDAY RECESS</span>
+</div>
+<!-- Slot 7: P5-P8 Lab Block -->
+<div class="bg-surface-container rounded-xl p-space-md flex flex-col md:flex-row md:items-center justify-between gap-space-sm shadow-md">
+<div class="flex items-center gap-space-md">
+<div class="flex flex-col min-w-[110px]"><span class="font-label-code text-label-code text-secondary font-bold">1.40 – 5.10</span><span class="font-label-timestamp text-label-timestamp text-secondary uppercase font-semibold">Periods 5, 6, 7, 8</span></div>
+<div class="h-8 w-px bg-outline-variant/30 hidden md:block"></div>
+<div class="flex flex-col"><div class="flex items-center gap-2 flex-wrap"><span class="font-label-code text-label-code bg-secondary/20 text-secondary px-1.5 py-0.5 rounded font-bold">23U111</span><span class="font-body-md text-body-md font-semibold text-on-surface">Circuits &amp; Devices Laboratory (4 Periods)</span><span class="font-label-badge text-label-badge bg-surface-container-high text-outline px-1.5 py-0.5 rounded">Tea Break 3.20-3.30 included</span></div><span class="font-body-sm text-body-sm text-on-surface-variant">Venue: Circuits &amp; Devices Laboratory · Semester 1 Practical Block</span></div>
+</div>
+<span class="font-label-badge text-label-badge bg-secondary-container/20 text-secondary px-2.5 py-1 rounded font-semibold">AFTERNOON LAB</span>
+</div></div>
+<div class="flex flex-col gap-2 pt-2"><!-- Slot 1: P1 -->
+<div class="bg-surface-container-low rounded-xl p-space-md flex flex-col md:flex-row md:items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-md">
+<div class="flex flex-col min-w-[110px]"><span class="font-label-code text-label-code text-on-surface-variant font-bold">8.30 – 9.20</span><span class="font-label-timestamp text-label-timestamp text-outline uppercase">Period 1</span></div>
+<div class="h-8 w-px bg-outline-variant/30 hidden md:block"></div>
+<div class="flex flex-col"><div class="flex items-center gap-2"><span class="font-label-code text-label-code bg-surface-container-high px-1.5 py-0.5 rounded text-primary font-bold">23U101</span><span class="font-body-md text-body-md font-semibold text-on-surface">Calculus and its Applications</span></div><span class="font-body-sm text-body-sm text-on-surface-variant">Venue: Classroom / As Per Department Schedule</span></div>
+</div>
+<span class="font-label-badge text-label-badge bg-surface-container-high text-on-surface-variant px-2 py-0.5 rounded">Completed</span>
+</div>
+<!-- Slot 2: P2 -->
+<div class="bg-surface-container rounded-xl p-space-md flex flex-col md:flex-row md:items-center justify-between gap-space-sm relative shadow-md">
+<div class="absolute left-0 top-0 bottom-0 w-1.5 bg-tertiary rounded-l-xl"></div>
+<div class="flex items-center gap-space-md pl-1">
+<div class="flex flex-col min-w-[110px]"><span class="font-label-code text-label-code text-tertiary font-bold">9.20 – 10.10</span><span class="font-label-timestamp text-label-timestamp text-tertiary uppercase">Period 2 · In Progress</span></div>
+<div class="h-8 w-px bg-outline-variant/30 hidden md:block"></div>
+<div class="flex flex-col"><div class="flex items-center gap-2"><span class="font-label-code text-label-code bg-surface-container-high px-1.5 py-0.5 rounded text-tertiary font-bold">23U104</span><span class="font-body-md text-body-md font-semibold text-on-surface">Electronic Devices &amp; Circuits</span></div><span class="font-body-sm text-body-sm text-on-surface-variant">Venue: Classroom / As Per Department Schedule</span></div>
+</div>
+<span class="font-label-code text-label-code bg-surface-container-lowest text-tertiary px-2 py-1 rounded">Live Period</span>
+</div>
+<!-- Slot 3: Tea Break -->
+<div class="bg-surface-container-lowest/40 rounded-lg px-space-md py-2 flex items-center justify-between text-outline">
+<div class="flex items-center gap-space-md"><span class="font-label-code text-label-code min-w-[110px]">10.10 – 10.30</span><div class="flex items-center gap-2"><span class="material-symbols-outlined text-base">local_cafe</span><span class="font-body-sm text-body-sm font-medium">Morning Recess &amp; Tea Break (20 mins)</span></div></div>
+<span class="font-label-timestamp text-label-timestamp text-on-surface-variant hidden sm:inline">OFFICIAL PSG TIMETABLE BREAK</span>
+</div>
+<!-- Slot 4: P3 -->
+<div class="bg-surface-container rounded-xl p-space-md flex flex-col md:flex-row md:items-center justify-between gap-space-sm shadow-sm">
+<div class="flex items-center gap-space-md">
+<div class="flex flex-col min-w-[110px]"><span class="font-label-code text-label-code text-on-surface font-semibold">10.30 – 11.20</span><span class="font-label-timestamp text-label-timestamp text-outline uppercase">Period 3</span></div>
+<div class="h-8 w-px bg-outline-variant/30 hidden md:block"></div>
+<div class="flex flex-col"><div class="flex items-center gap-2"><span class="font-label-code text-label-code bg-surface-container-high px-1.5 py-0.5 rounded text-primary font-bold">23G105</span><span class="font-body-md text-body-md font-semibold text-on-surface">English Language Proficiency</span></div><span class="font-body-sm text-body-sm text-on-surface-variant">Venue: Classroom / As Per Department Schedule</span></div>
+</div>
+<span class="font-label-badge text-label-badge bg-surface-container text-outline px-2 py-1 rounded">Next Session</span>
+</div>
+<!-- Slot 5: P4 -->
+<div class="bg-surface-container-low rounded-xl p-space-md flex flex-col md:flex-row md:items-center justify-between gap-space-sm shadow-sm">
+<div class="flex items-center gap-space-md">
+<div class="flex flex-col min-w-[110px]"><span class="font-label-code text-label-code text-on-surface font-semibold">11.20 – 12.10</span><span class="font-label-timestamp text-label-timestamp text-outline uppercase">Period 4</span></div>
+<div class="h-8 w-px bg-outline-variant/30 hidden md:block"></div>
+<div class="flex flex-col"><div class="flex items-center gap-2"><span class="font-label-code text-label-code bg-surface-container-high px-1.5 py-0.5 rounded text-secondary font-bold">23U103</span><span class="font-body-md text-body-md font-semibold text-on-surface">Electric Circuits</span></div><span class="font-body-sm text-body-sm text-on-surface-variant">Venue: Classroom / As Per Department Schedule</span></div>
+</div>
+<span class="font-label-badge text-label-badge bg-surface-container text-outline px-2 py-1 rounded">Scheduled</span>
+</div>
+<!-- Slot 6: Lunch Break -->
+<div class="bg-surface-container-lowest/40 rounded-lg px-space-md py-2 flex items-center justify-between text-outline">
+<div class="flex items-center gap-space-md"><span class="font-label-code text-label-code min-w-[110px]">12.10 – 1.40</span><div class="flex items-center gap-2"><span class="material-symbols-outlined text-base">restaurant</span><span class="font-body-sm text-body-sm font-medium">Lunch Break (1 hr 30 mins)</span></div></div>
+<span class="font-label-timestamp text-label-timestamp text-on-surface-variant hidden sm:inline">MIDDAY RECESS</span>
+</div>
+<!-- Slot 7: P5-P8 Lab Block -->
+<div class="bg-surface-container rounded-xl p-space-md flex flex-col md:flex-row md:items-center justify-between gap-space-sm shadow-md">
+<div class="flex items-center gap-space-md">
+<div class="flex flex-col min-w-[110px]"><span class="font-label-code text-label-code text-secondary font-bold">1.40 – 5.10</span><span class="font-label-timestamp text-label-timestamp text-secondary uppercase font-semibold">Periods 5, 6, 7, 8</span></div>
+<div class="h-8 w-px bg-outline-variant/30 hidden md:block"></div>
+<div class="flex flex-col"><div class="flex items-center gap-2 flex-wrap"><span class="font-label-code text-label-code bg-secondary/20 text-secondary px-1.5 py-0.5 rounded font-bold">23U111</span><span class="font-body-md text-body-md font-semibold text-on-surface">Circuits &amp; Devices Laboratory (4 Periods)</span><span class="font-label-badge text-label-badge bg-surface-container-high text-outline px-1.5 py-0.5 rounded">Tea Break 3.20-3.30 included</span></div><span class="font-body-sm text-body-sm text-on-surface-variant">Venue: Circuits &amp; Devices Laboratory · Semester 1 Practical Block</span></div>
+</div>
+<span class="font-label-badge text-label-badge bg-secondary-container/20 text-secondary px-2.5 py-1 rounded font-semibold">AFTERNOON LAB</span>
+</div></div>
+</div>
+<!-- Card 3: Friday -->
+<div class="bg-surface-container rounded-xl p-space-md flex flex-col justify-between gap-space-md shadow-md">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-label-badge text-label-badge bg-surface-container-high text-on-surface px-1.5 py-0.5 rounded font-semibold uppercase">
+                  Fri · Mar 21
+                </span>
+<span class="material-symbols-outlined text-outline text-base">verified_user</span>
+</div>
+<h3 class="font-body-md text-body-md font-semibold text-on-surface leading-snug">
+                IAT-1 Hall Ticket Sign-off
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Tutor sign-off and attendance clearance required prior to first Continuous Assessment test.
+              </p>
+</div>
+<div class="flex flex-col gap-2 pt-2">
+<div class="flex items-center justify-between font-label-code text-label-code text-xs">
+<span class="text-outline font-medium">In 3 Days</span>
+<span class="text-on-surface-variant">Tutor Cabin</span>
+</div>
+<button class="w-full bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-code text-label-code py-1.5 rounded transition-colors font-semibold">
+                View Checklist
+              </button>
+</div>
+</div>
+</div>
+</div>
+<!-- ATTENDANCE & ICE COMPUTE STATUS (4 COLS) -->
+<div class="lg:col-span-4 flex flex-col gap-space-md">
+<h2 class="font-headline-md text-headline-md text-on-surface tracking-tight">Academic Health</h2>
+<div class="bg-surface-container rounded-xl p-space-md flex flex-col justify-between gap-space-md shadow-md flex-1">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between"><span class="font-label-badge text-label-badge bg-tertiary-container/30 text-tertiary px-2 py-0.5 rounded uppercase font-semibold">Private Telemetry (Only You)</span><span class="font-label-code text-label-code text-outline">[SAMPLE ESTIMATE]</span></div>
+<!-- Visual Donut Stat Block -->
+<div class="flex items-center gap-space-md pt-2">
+<div class="relative h-20 w-20 shrink-0 flex items-center justify-center">
+<svg class="h-20 w-20 transform -rotate-90" viewBox="0 0 36 36">
+<path class="text-surface-container-lowest" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-width="3.5"></path>
+<path class="text-tertiary" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="88.4, 100" stroke-linecap="round" stroke-width="3.5"></path>
+</svg>
+<span class="absolute font-headline-md text-headline-md text-on-surface font-bold">88%</span>
+</div>
+<div class="flex flex-col">
+<span class="font-body-md text-body-md font-semibold text-on-surface">Overall: 88.4%</span>
+<span class="font-body-sm text-body-sm text-tertiary font-medium">Bunk Buffer: 4 Periods</span>
+<span class="font-label-code text-label-code text-outline text-[11px] pt-1">Next Risk: EE24103 at 79%</span>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-low rounded-lg p-space-sm flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-timestamp text-label-timestamp text-outline uppercase">Next Assessment</span>
+<span class="font-body-sm text-body-sm font-semibold text-on-surface">IAT-1 Starts in 12 Days</span>
+</div>
+<span class="material-symbols-outlined text-primary text-xl">event_upcoming</span>
+</div>
+</div>
+</div>
+</div>
+<!-- SECTION 4: CAMPUS BULLETINS & DEPARTMENT STORE STATUS -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-md">
+<!-- BULLETINS FEED (8 COLS) -->
+<div class="lg:col-span-8 flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<h2 class="font-headline-md text-headline-md text-on-surface tracking-tight">Verified Bulletins &amp; Dispatches</h2>
+<span class="material-symbols-outlined text-tertiary text-base">verified</span>
+</div>
+<span class="font-label-timestamp text-label-timestamp text-outline">CLASS CR &amp; HOD DESK</span>
+</div>
+<div class="bg-surface-container rounded-xl divide-y divide-outline-variant/10 shadow-md">
+<!-- Bulletin 1 -->
+<div class="p-space-md flex items-start gap-space-md hover:bg-surface-container-high/40 transition-colors">
+<div class="h-10 w-10 rounded bg-primary/10 flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-primary text-xl">emoji_events</span>
+</div>
+<div class="flex flex-col gap-1 flex-1">
+<div class="flex items-center justify-between gap-2 flex-wrap">
+<div class="flex items-center gap-2">
+<span class="font-body-md text-body-md font-semibold text-on-surface">Smart India Hackathon (SIH 2025) Internal Qualifiers</span>
+<span class="font-label-badge text-label-badge bg-primary-container/20 text-primary px-1.5 py-0.2 rounded font-semibold uppercase">Hacks</span>
+</div>
+<span class="font-label-timestamp text-label-timestamp text-outline">Yesterday · 04:30 PM</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Internal PSG Tech preliminary rounds close registration this Friday. ICE Department faculty mentor list is posted on the department notice board outside F-Block HOD Office.
+              </p>
+</div>
+</div>
+<!-- Bulletin 2 -->
+<div class="p-space-md flex items-start gap-space-md hover:bg-surface-container-high/40 transition-colors">
+<div class="h-10 w-10 rounded bg-secondary/10 flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-secondary text-xl">factory</span>
+</div>
+<div class="flex flex-col gap-1 flex-1">
+<div class="flex items-center justify-between gap-2 flex-wrap">
+<div class="flex items-center gap-2">
+<span class="font-body-md text-body-md font-semibold text-on-surface">Industrial Visit: L&amp;T Valves &amp; Flow Control (Malumichampatti)</span>
+<span class="font-label-badge text-label-badge bg-secondary-container/20 text-secondary px-1.5 py-0.2 rounded font-semibold uppercase">IV-Drive</span>
+</div>
+<span class="font-label-timestamp text-label-timestamp text-outline">Mar 16 · 11:00 AM</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Parental consent forms must be physically signed and submitted to the Class Representative by March 22. Bus departure from Tech Hostel Gate 2 at 08:00 AM sharp.
+              </p>
+</div>
+</div>
+<!-- Bulletin 3 -->
+<div class="p-space-md flex items-start gap-space-md hover:bg-surface-container-high/40 transition-colors">
+<div class="h-10 w-10 rounded bg-tertiary/10 flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-tertiary text-xl">inventory_2</span>
+</div>
+<div class="flex flex-col gap-1 flex-1">
+<div class="flex items-center justify-between gap-2 flex-wrap">
+<div class="flex items-center gap-2">
+<span class="font-body-md text-body-md font-semibold text-on-surface">Hardware Stock: OP-AMP IC741 &amp; Multimeter Probes Replenished</span>
+<span class="font-label-badge text-label-badge bg-tertiary/20 text-tertiary px-1.5 py-0.2 rounded font-semibold uppercase">Lab Store</span>
+</div>
+<span class="font-label-timestamp text-label-timestamp text-outline">Mar 15 · 02:15 PM</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Breadboards and OP-AMP IC741 DIP-8 chips are now restocked at Department Store Counter 2. Present PSG ID card for issue slip verification.
+              </p>
+</div>
+</div>
+</div>
+</div>
+<!-- PSG TECH HARDWARE & CAMPUS TOOLS (4 COLS) -->
+<div class="lg:col-span-4 flex flex-col gap-space-md">
+<h2 class="font-headline-md text-headline-md text-on-surface tracking-tight">ICE Hub Shortcuts</h2>
+<div class="bg-surface-container rounded-xl p-space-md flex flex-col gap-space-sm shadow-md">
+<a class="bg-surface-container-low hover:bg-surface-container-high p-space-sm rounded-lg flex items-center justify-between transition-colors group" href="#">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-xl">lan</span>
+<div class="flex flex-col">
+<span class="font-body-md text-body-md font-semibold text-on-surface">PSG Tech Portal (ERP)</span>
+<span class="font-label-code text-label-code text-outline text-[11px]">Marks, Hall Tickets, Exam Fee</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:text-primary transition-colors text-base">open_in_new</span>
+</a>
+<a class="bg-surface-container-low hover:bg-surface-container-high p-space-sm rounded-lg flex items-center justify-between transition-colors group" href="#">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-xl">memory</span>
+<div class="flex flex-col">
+<span class="font-body-md text-body-md font-semibold text-on-surface">Instrumentation Inventory</span>
+<span class="font-label-code text-label-code text-outline text-[11px]">Check DAQ &amp; Sensor kits</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:text-secondary transition-colors text-base">open_in_new</span>
+</a>
+<a class="bg-surface-container-low hover:bg-surface-container-high p-space-sm rounded-lg flex items-center justify-between transition-colors group" href="#">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-tertiary text-xl">chat</span>
+<div class="flex flex-col">
+<span class="font-body-md text-body-md font-semibold text-on-surface">ICE-A WhatsApp Dispatch</span>
+<span class="font-label-code text-label-code text-outline text-[11px]">Daily CR summary archive</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:text-tertiary transition-colors text-base">open_in_new</span>
+</a>
+<div class="p-space-sm rounded-lg bg-surface-container-lowest flex items-center justify-between mt-2"><div class="flex flex-col"><span class="font-label-badge text-label-badge text-outline uppercase">Official Contact Channel</span><span class="font-body-sm text-body-sm font-medium text-on-surface">Department Office · F-Block</span></div><span class="font-label-code text-label-code bg-surface-container-high text-outline px-2 py-1 rounded text-xs">Portal Request</span></div>
+</div>
+</div>
+</div>
+<!-- SECTION 5: CAMPUS SPATIAL MINI-NAVIGATOR (E-BLOCK LAB ACCESSIBILITY) -->
+<div class="bg-surface-container rounded-xl p-space-md flex flex-col md:flex-row items-center justify-between gap-space-md shadow-md" id="quick-route"><div class="flex items-center gap-space-md"><div class="h-12 w-12 rounded-lg bg-primary/20 flex items-center justify-center text-primary shrink-0"><span class="material-symbols-outlined text-2xl">verified_user</span></div><div class="flex flex-col"><span class="font-body-md text-body-md font-semibold text-on-surface">PSG College of Technology · BE ICE Semester 1 Standards</span><span class="font-body-sm text-body-sm text-on-surface-variant">Official schedule maintained per department syllabus. Mock items are marked [DEMO PREVIEW] and all peer directories remain strictly restricted for privacy.</span></div></div><div class="flex items-center gap-2 shrink-0"><span class="font-label-code text-label-code bg-surface-container-low text-tertiary px-2.5 py-1.5 rounded">Verified Compliant</span></div></div>
+</div>
+</div>
+<script>
+  // Simple Micro-interaction: Update local IST clock pulse if element exists
+  setInterval(() => {
+    const timeElements = document.querySelectorAll('[data-live-ist]');
+    const now = new Date();
+    const formatted = now.toLocaleTimeString('en-IN', { timeZone: 'Asia/Kolkata', hour12: true });
+    timeElements.forEach(el => el.textContent = formatted);
+  }, 1000);
+</script></main></div>
+
+</body></html>
